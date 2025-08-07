@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pyodbc
+dotenv
+openai
+celery
+redis
+sentence-transformers
+faiss-cpu
+numpy
+inflect

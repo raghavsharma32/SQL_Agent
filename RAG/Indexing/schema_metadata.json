@@ -1,0 +1,2593 @@
+{
+    "dbo.Amagi_Daily": {
+        "keywords": [
+            "Amagi","Amagi data"
+        ],
+        "columns": [
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "content_name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "content_title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "delivery_type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "channel_name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "platform_name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "content_duration",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "content_id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "content_studio",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "content_series",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "airings",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "total_viewership_minutes",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "aggregated_dynamic_ad_impressions_count",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "aggregated_unique_viewers",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "number_of_session",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avg_session_duration_minutes",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Gravitas_Id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.Amazon_Earnings_PVD": {
+        "keywords": [
+            "Amazon PVD",
+            "Amazon Earnings"
+        ],
+        "columns": [
+            {
+                "column": "Title/Season ID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "ASIN",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "GravitasId",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title Name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Series Name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Consumption Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Quality",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Unit Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Quantity",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Is Refund",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Duration Streamed",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Paid Ad Impressions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Ad Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Royalty Rate",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Royalty Amount",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Royalty Currency",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Region",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Territory",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Period Start",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Period End",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "CER Percentile",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.Amazon_VC_Weekly_US": {
+        "keywords": [
+            "Vendor Weekly"
+        ],
+        "columns": [
+            {
+                "column": "Country",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Service Name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Purchase Channel",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Contract ID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Purchase Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Series Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Number",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Episode Number",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "GravitasID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Asin",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Purchase Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Format",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Count of Units",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Sum of Unit Cost",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Sum of Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.amazon_vendor_central_All_Territory_daily": {
+        "keywords": [
+            "Vendor Central"
+        ],
+        "columns": [
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Retail Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Territory",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Transaction Format",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Media Format",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Episode Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Series Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Episode Count",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Unit Cost",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Costable",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Quantity",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Cost",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Gravitas_ID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.AmazonData_Reports": {
+        "keywords": [
+            "Performance Matrix",
+            "Amazon performance",
+            "Amazon summary"
+        ],
+        "columns": [
+            {
+                "column": "Date",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Title Id",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title Name",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Id",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Name",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Series Id",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Series Name",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Offer type",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Region",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Territory",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Minutes Streamed",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Unique Streams",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Vendor Identifier",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.Comscore_Daily": {
+        "keywords": [
+            "ComScore"
+        ],
+        "columns": [
+            {
+                "column": "Rnk",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Network",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Run Time",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Latest Start of Window",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Txns",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "($) Rev",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "HHs",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Txn Rate",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Avg Audience",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Rtg",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Avg Playtime",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "AT&T U-verse",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Blue Ridge",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Cablevision",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Comcast",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Cox",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Frontier Communications",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Grande Communications",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Mediacom",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "RCN",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Service Electric Cablevision",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Spectrum",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Suddenlink",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Verizon",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Wave Broadband",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Wide Open West",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Buckeye Cable",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "CenturyLink",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Layer 3",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Armstrong",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "GCI",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Hargray",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Service Electric Cable TV",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Atlantic Broadband",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Frankfort Cable",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Metrocast",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Massillon",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Click_",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "GVTC",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Metronet",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Summit Broadband",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "EPB Fiber Optics",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Vast Broadband",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Bend Broadband",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Gravitas_Id",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 30
+            },
+            {
+                "column": "Midcontinent",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.Googleplay(TVOD)": {
+        "keywords": [
+            "Youtube"
+        ],
+        "columns": [
+            {
+                "column": "Video title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Video publish time",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Average views per viewer",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Unique viewers",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Average percentage viewed (%)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Average view duration",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "YouTube Premium watch time (hours)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "YouTube Premium views",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "RPM (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Estimated monetized playbacks",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Playback-based CPM (USD)",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "CPM (USD)",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Ad impressions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Estimated AdSense revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Estimated DoubleClick revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "YouTube ad revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Watch Page ads (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "YouTube Premium (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Revenue per transaction (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Transactions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Transaction revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Views",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Watch time (hours)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Subscribers",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Estimated revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Impressions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Impressions click-through rate (%)",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Gravitas_ID",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 20
+            }
+        ]
+    },
+    "dbo.Hoopla_Daily": {
+        "keywords": [
+            "Hoopla"
+        ],
+        "columns": [
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Circ ID",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Artist",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Publisher",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Publisher Id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Library",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Country",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "State",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Postal",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 500
+            },
+            {
+                "column": "Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Revenue Currency",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Net Due Flat",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Net Due Percent",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Net Due",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Net Due Currency",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.ITunes_Daily": {
+        "keywords": [
+            "ITunes"
+        ],
+        "columns": [
+            {
+                "column": "Provider",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Provider Country",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Vendor Identifier",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "UPC",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "ISRC",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Artist / Show",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": -1
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Label/Studio/Network",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Product Type Identifier",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Units",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Royalty Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Begin Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "End Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Customer Currency",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Country Code",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Royalty Currency",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "PreOrder",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "ISAN",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Apple Identifier",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Customer Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "CMA",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Asset/Content Flavor",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Vendor Offer Code",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Grid",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Promo Code",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Parent Identifier",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Parent Type Id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Primary Genre",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.peacock_Ad_Revenue": {
+        "keywords": [
+            "Peacock Ad Revenue"
+        ],
+        "columns": [
+            {
+                "column": "Distributor",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Studio",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Entitlement",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Episode",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content_Starts",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Network_Ad_Rev_Share",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "GravitasID",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 100
+            }
+        ]
+    },
+    "dbo.Peacock_Sub_Revenue": {
+        "keywords": [
+            "Peacock Sub Revenue"
+        ],
+        "columns": [
+            {
+                "column": "Distributor",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Studio",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Hours_Spent",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Net_Sub_Revenue_Share",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "GravitasID",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 100
+            }
+        ]
+    },
+    "dbo.Plex_Daily": {
+        "keywords": [
+            "Plex"
+        ],
+        "columns": [
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Partner",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Product",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Partner ID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Country",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Series Name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Partner Revenue Share",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Estimated Gross Revenue",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Estimated Ad Fees",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Estimated Partner Net Revenue",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Paid CPM",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Impressions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Requests",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Fill Rate",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Estimated Partner Profit",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Gravitas_Id",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 30
+            }
+        ]
+    },
+    "dbo.Roku_Daily": {
+        "keywords": [
+            "Roku"
+        ],
+        "columns": [
+            {
+                "column": "Secondary Movie/Series Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Season Number",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Episode Number",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Stream Start Event Count",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Streaming Hours Sum",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Date",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "GravitasID",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.Summary_Table": {
+        "keywords": [
+            "summary_table"
+        ],
+        "columns": [
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "genre",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "tvod_amazon_classic",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_comcast",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_cox",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_spectrum",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_google",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_vudu",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_itunes",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_hoopla",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "tvod_amazon_earning",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "total_tvod",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "gravitas_id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "avod_Amazon_PVD_Rev",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_Amazon_Freevee",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_tubi",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_Pluto",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_Youtube",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "peacock_ad_rev",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "peacock_sub_rev",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_roku_usd",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_yt_license_revenue",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avod_vizio",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "total_avod",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "amazonsvod_revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "amazonprime_rev",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "license_start_date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "license_end_date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "fee",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "fixedfee_partner",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "mg_fees",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "gv_fee_percent",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "HomeVideo_Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.tbl_all_amazon_new": {
+        "keywords": [
+            "amazon",
+            "Total_Revenue"
+        ],
+        "columns": [
+            {
+                "column": "Date",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Source",
+                "data_type": "varchar",
+                "nullable": "NO",
+                "max_length": 7
+            },
+            {
+                "column": "GravitasId",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Consumption_Purchase_Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Unit_Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Quantity",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Currency",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Minutes_Streamed",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Unique_Streamed",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Offer_Type",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Region",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Royalty_Amount",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Royalty_Amount_USD",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "cph",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "brand",
+                "data_type": "varchar",
+                "nullable": "NO",
+                "max_length": 17
+            },
+            {
+                "column": "actual/estimate",
+                "data_type": "varchar",
+                "nullable": "NO",
+                "max_length": 8
+            }
+        ]
+    },
+    "dbo.tbl_avod_revenue": {
+        "keywords": [
+            "Avod"
+        ],
+        "columns": [
+            {
+                "column": "TheDate",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "GravitasId",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Tubi_Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Amazon_Hours_Streamed",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Amazon_USD",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Pluto_Hours",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Pluto_USD",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "YouTube_USD",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Roku_Hours",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Roku_USD",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "YT_License_Revenue",
+                "data_type": "money",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Vizio_Revenue",
+                "data_type": "money",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "AVOD_Total",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.tbl_fixedfee_revenue": {
+        "keywords": [
+            "Fixedfee"
+        ],
+        "columns": [
+            {
+                "column": "Title/Package",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Unique ID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Partner ",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Territories",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "License Start Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "License End Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Fee",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Fee Note",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Status of Deal",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Rights",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            }
+        ]
+    },
+    "dbo.Tbl_PlutoData": {
+        "keywords": [
+            "Pluto"
+        ],
+        "columns": [
+            {
+                "column": "Series",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 100
+            },
+            {
+                "column": "Episode",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 100
+            },
+            {
+                "column": "Brand",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 20
+            },
+            {
+                "column": "Date",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Users",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Sessions",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Total_Viewing_Minutes",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Avg_Min_Per_User",
+                "data_type": "int",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Vendor Identifier",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 20
+            }
+        ]
+    },
+    "dbo.tbl_tvod_revenue": {
+        "keywords": [
+            "Tvod"
+        ],
+        "columns": [
+            {
+                "column": "TheDate",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "GV",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 30
+            },
+            {
+                "column": "Territory",
+                "data_type": "varchar",
+                "nullable": "YES",
+                "max_length": 20
+            },
+            {
+                "column": "Amazon",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "google",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "unit cost",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Royalty Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Comcast_revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Cox_Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Spectrum_Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "comcast_TVOD_Share",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Vudo",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "TVOD",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.tbl_vudo_daily": {
+        "keywords": [
+            "Vudo"
+        ],
+        "columns": [
+            {
+                "column": "Purchases/Refunds",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "TV Indicator",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Library Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "ContentID",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Studio Movie ID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Activity Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "EST/VOD",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Video Quality",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Retail Price",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Studio Share",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Qty",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Total Studio Share",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.Tubi_By_Episode_Daily": {
+        "keywords": [
+            "Tubi By Episode"
+        ],
+        "columns": [
+            {
+                "column": "Period",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "content_type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "season_number",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "episode_name",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "partner_id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "impressions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "estimated_revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "ecpm",
+                "data_type": "numeric",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.Tubi_By_Platform_Daily": {
+        "keywords": [
+            "Tubi By Platform"
+        ],
+        "columns": [
+            {
+                "column": "Period",
+                "data_type": "date",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "platform",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "impressions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "estimated_revenue",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "ecpm",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.VizioData": {
+        "keywords": [
+            "Vizio"
+        ],
+        "columns": [
+            {
+                "column": "Content Series",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Season",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Episode",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "GRAVID",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Content Title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Product Type",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Rev Share $",
+                "data_type": "money",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.xumo": {
+        "keywords": [
+            "Xumo"
+        ],
+        "columns": [
+            {
+                "column": "channel",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "play_count",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "total_Time_Watched",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "asset_duration",
+                "data_type": "time",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avg_play_time",
+                "data_type": "time",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "avg_playthrough_rate",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "asset_id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            }
+        ]
+    },
+    "dbo.Youtube_AVOD_Rental": {
+        "keywords": [
+            "GooglePlay"
+        ],
+        "columns": [
+            {
+                "column": "Video title",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Video publish time",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 255
+            },
+            {
+                "column": "Revenue per transaction (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Transactions",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Transaction revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Estimated revenue (USD)",
+                "data_type": "float",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Date",
+                "data_type": "datetime",
+                "nullable": "YES",
+                "max_length": null
+            },
+            {
+                "column": "Gravitas_Id",
+                "data_type": "nvarchar",
+                "nullable": "YES",
+                "max_length": 100
+            }
+        ]
+    }
+}
